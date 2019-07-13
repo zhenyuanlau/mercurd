@@ -33,4 +33,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "cucumber", "~> 3.0"
   spec.add_development_dependency "aruba"
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "rb-readline"
+  spec.add_dependency "thor"
 end

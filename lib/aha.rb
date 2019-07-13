@@ -1,4 +1,5 @@
 require "aha/version"
+require "aha/cli"
 
 module Aha
   class Error < StandardError; end

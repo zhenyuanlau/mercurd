@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'aha'
+
+Aha::CLI.start
