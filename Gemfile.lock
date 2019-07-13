@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    aha (0.1.0)
+    mercurd (0.1.0)
       thor
 
 GEM
@@ -66,7 +66,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aha!
+  mercurd!
   aruba (~> 0.14.10)
   bundler (~> 2.0)
   cucumber (~> 3.0)

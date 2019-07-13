@@ -1,7 +1,7 @@
-require "aha/version"
-require "aha/cli"
+require "mercurd/version"
+require "mercurd/cli"
 
-module Aha
+module Mercurd
   class Error < StandardError; end
   # Your code goes here...
 end

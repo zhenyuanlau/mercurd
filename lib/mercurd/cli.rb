@@ -1,8 +1,8 @@
 require 'thor'
 
-module Aha
+module Mercurd
   class CLI < Thor
-    desc "Guide", "Aha, A guide."
+    desc "zen", "A guide."
     def zen
       puts <<-ZEN
                     Zen of Code Reading

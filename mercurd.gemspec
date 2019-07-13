@@ -1,23 +1,23 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "aha/version"
+require "mercurd/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "aha"
-  spec.version       = Aha::VERSION
+  spec.name          = "mercurd"
+  spec.version       = Mercurd::VERSION
   spec.authors       = ["Zhenyuan Lau"]
   spec.email         = ["zhenyuanlau@icloud.com"]
 
   spec.summary       = %q{A Code Reading Helper.}
   spec.description   = ""
-  spec.homepage      = "https://github.com/zhenyuanlau/aha"
+  spec.homepage      = "https://github.com/zhenyuanlau/mercurd"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/zhenyuanlau/aha"
-  spec.metadata["changelog_uri"] = "https://github.com/zhenyuanlau/aha"
+  spec.metadata["source_code_uri"] = "https://github.com/zhenyuanlau/mercurd"
+  spec.metadata["changelog_uri"] = "https://github.com/zhenyuanlau/mercurd"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

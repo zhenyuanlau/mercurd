@@ -1,6 +1,6 @@
 require "bundler/setup"
 require 'aruba/rspec'
-require "aha"
+require "mercurd"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
