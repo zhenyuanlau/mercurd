@@ -36,4 +36,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry"
   spec.add_development_dependency "rb-readline"
   spec.add_dependency "thor"
+  spec.add_dependency "activesupport"
 end

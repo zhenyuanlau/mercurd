@@ -2,7 +2,19 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mercurd`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+Your benefits:
+
+- Master the methods of code reading
+- Support by a convenient command line
+
+My Vision:
+
+- Help to reading code
+- Make code reading simple and fun
+
+My Focus:
+
+- Code Reading In Action
 
 ## Installation
 
@@ -14,11 +26,15 @@ gem 'mercurd'
 
 And then execute:
 
-    $ bundle
+```bash
+bundle
+```
 
 Or install it yourself as:
 
-    $ gem install mercurd
+```bash
+gem install mercurd
+```
 
 ## Usage
 

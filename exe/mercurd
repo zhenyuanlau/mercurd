@@ -2,4 +2,4 @@
 
 require 'mercurd'
 
-Mercurd::CLI.start
+Mercurd::CLI.start ARGV
