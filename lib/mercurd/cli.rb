@@ -17,6 +17,11 @@ module Mercurd
       ZEN
     end
 
+    desc "requirements", "Install Mercurd Deps"
+    def requirements
+      `brew install cloc`
+    end
+
     desc "cloc [OPTIONS]", "The wrapper of github.com/AlDanial/cloc"
     def cloc(src = nil)
       cmd = `which cloc`

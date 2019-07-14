@@ -4,6 +4,10 @@ Feature: CLI
   I want a conveniet command line,
   So that reading code better.
 
+  Scenario: Run mercurd requirements
+    When I successfully run `mercurd requirements`
+    Then the feature should pass 
+
   Scenario: Run mercurd zen
     When I successfully run `mercurd zen`
     Then the output should contain: 
