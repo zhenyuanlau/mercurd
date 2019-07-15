@@ -1,3 +1,4 @@
+# language: en
 @wip 
 Feature: CLI
   As a mercurd user,
