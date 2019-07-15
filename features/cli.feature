@@ -22,3 +22,15 @@ Feature: CLI
     """
     Count Lines of Code
     """
+
+  Scenario: Run mercurd generate feature
+    When I successfully run `mercurd generate feature dummy`
+    Then the following files should exist:
+      | features/dummy.feature |
+    Then the file "features/dummy.feature" should contain:
+      """
+      Feature: <feature name>
+        As a <user or stakeholder type>
+        I want <some software feature>
+        So that <some business value>
+      """

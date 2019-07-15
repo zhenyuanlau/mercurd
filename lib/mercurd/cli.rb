@@ -2,6 +2,7 @@ require 'thor'
 
 require 'active_support'
 require 'active_support/core_ext/object'
+require 'mercurd/generators/feature'
 
 module Mercurd
   class CLI < Thor
@@ -30,6 +31,11 @@ module Mercurd
       dir = src ? src : '.'
       ret = `cloc #{dir}`
       puts [prefix, ret].join("\n\n")
+    end
+
+    desc "generate [ENTITY]", "Cucumber features generator"
+    def generate(entity, name)
+      Mercurd::Generators::Feature.start([entity, name])
     end
   end
 end
