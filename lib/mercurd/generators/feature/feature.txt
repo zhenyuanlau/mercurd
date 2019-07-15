@@ -1,4 +1,12 @@
+# language: e
 Feature: <feature name>
   As a <user or stakeholder type>
   I want <some software feature>
   So that <some business value>
+
+  @wip
+  Scenario: <scenario name>
+    Given <the context>
+    When <the event(s)>
+    Then <the outcome(s)>
+    
