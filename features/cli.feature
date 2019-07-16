@@ -22,7 +22,6 @@ Feature: CLI
     Count Lines of Code
     """
 
-  @wip 
   Scenario: Run mercurd generate feature
     When I successfully run `mercurd generate feature dummy`
     Then the following files should exist:
