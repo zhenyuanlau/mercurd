@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mercurd (0.4.1)
+    mercurd (0.4.2)
       activesupport
       thor
 
