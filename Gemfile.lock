@@ -22,8 +22,7 @@ GEM
       thor (~> 0.19)
     backports (3.15.0)
     builder (3.2.3)
-    childprocess (1.0.1)
-      rake (< 13.0)
+    childprocess (1.0.0)
     coderay (1.1.2)
     concurrent-ruby (1.1.5)
     contracts (0.16.0)
@@ -62,7 +61,7 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rake (10.5.0)
+    rake (13.0.1)
     rb-readline (0.5.5)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
@@ -99,7 +98,7 @@ DEPENDENCIES
   mercurd!
   pry
   rack-test
-  rake (~> 10.0)
+  rake (~> 13.0)
   rb-readline
   rspec (~> 3.0)
   sinatra
